@@ -1,0 +1,11 @@
+{
+  "name": "boost-recovery-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproduce and recover ambiguous Cashu boost swaps without a second payment.",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node --test", "demo": "node demo/run.mjs"},
+  "dependencies": {"@cashu/cashu-ts": "4.13.1", "@noble/curves": "2.4.0", "@noble/hashes": "2.4.0"}
+}

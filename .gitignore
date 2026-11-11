@@ -1,0 +1,6 @@
+node_modules/
+.state/
+*.journal.json
+*.journal.json.lock
+*.journal.json.tmp
+coverage/
